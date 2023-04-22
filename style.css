@@ -1,0 +1,57 @@
+/* Set basic styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    ;
+    }
+    
+    h1, h2, h3, h4 {
+    margin-top: 0;
+    color: aquamarine;
+    font-weight: 300;
+    }
+    
+    h1 {
+    font-size: 2em;
+    }
+    
+    h2 {
+    font-size: 1.5em;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* Style header section */
+    header {
+    background-color: #7d1818;
+    color: #d2b749;
+    padding: 1em;
+    text-align: center;
+    }
+    
+    /* Style main section */
+    main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    }
+    
+    /* Style experience section */
+    section h3 {
+    margin-top: 1.5em;
+    }
+    
+    /* Add hover effect to skills list */
+    ul li:hover {
+    background-color: #33af28;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 20px;}
